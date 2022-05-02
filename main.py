@@ -16,7 +16,7 @@ Year_Open = 1920
 template = env.get_template('template.html')
 Time_now = datetime.datetime.now()
 Time_now = Time_now.year - Year_Open
-exel.wine
+exel.winms
 """winms =[{'title': 'Изабелла',
          'grade': 'Изабелла',
          'price': 350,
@@ -48,7 +48,7 @@ exel.wine
          'image': 'images/hvanchkara.png'}]
 """
          
-rendered_page = template.render(exel.wine)
+rendered_page = template.render(exel.winms)
 
 
 
